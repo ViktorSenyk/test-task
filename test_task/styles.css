@@ -7,6 +7,7 @@
   height: 40px;
   width: 100%;
   position: fixed;
+  z-index: 10;
 }
 .navigation {
   line-height: 40px;
@@ -30,9 +31,12 @@
   width: 200px;
   height: 200px;
   background-color: aquamarine;
-  position: relative;
+  /* position: relative;
   top: 50%;
-  left: 50%;
+  left: 50%; */
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
 }
 .ear {
   width: 40px;
